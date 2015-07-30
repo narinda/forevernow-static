@@ -1,0 +1,89 @@
+body {
+  margin:0;
+  padding:0 0 0 0;
+  font-family: Lucida Grande, Tahoma, Verdana, sans-serif;
+}
+div.band {
+  margin-top: 100px;
+  padding: 2em 0;
+  color: #FFF;
+  background: url("../../images/login/logo.png") #003153 no-repeat bottom right;
+}
+div.nologo {
+  background-image: none;
+}
+div.band h1 {
+  margin: 0;
+}
+div.band h1 a {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  font: normal 18pt Futura, Lucida Grande, Tahoma, Verdana, serif;
+  text-transform: uppercase;
+}
+
+div.band a {
+  color: #DDF;
+}
+
+div.band form {
+  width: 30em;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+div.band .bigInputs input {
+  font-size: 14pt;
+  width: 98%;
+  margin-top:0.2em;
+}
+div.band .field {
+  margin-top: 0.5em;
+}
+
+.mainAction {
+  float:right;
+  margin-top: 1em;
+}
+
+div.footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+div.footer, div.footer a {
+  color: #003153;
+}
+
+div.footer h3, div.footer h4 {
+  display: inline;
+  font: normal 12pt Georgia, serif;
+  font-variant: small-caps;
+}
+
+/* FLASH NOTICE */
+#sidebarNotice {
+  background: url("../../images/generic/icon_notice.gif") #FFC no-repeat 3px 4px;
+  margin: 6px 29%;
+  width: 40%;
+  border: 1px solid #DDB;
+  padding: 0.4em 0.4em 0.4em 24px;
+  font-size:9pt;
+  position: absolute;
+  color: black;
+}
+
+.errorLogout {
+  float: right;
+  color: #EEE;
+  font-size: 10px;
+  margin: -20px 20px 0;
+}
+
+.errorLogout a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #EEE !important;
+}
