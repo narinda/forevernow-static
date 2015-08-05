@@ -1,7 +1,7 @@
 {
   "name" : "staging.forevernow.me",
   "hosting" : "s3",
-  "auth_namespace" : "main",
+  "auth_namespace" : "forevernow-static-stage",
   "hosting_options" : {
     "primary_domain": "staging.forevernow.me",
     "region" : "ap-southeast-2"
