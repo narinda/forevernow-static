@@ -1,0 +1,10 @@
+{
+  "name" : "staging.forevernow.me",
+  "hosting" : "s3",
+  "auth_namespace" : "main",
+  "hosting_options" : {
+    "primary_domain": "staging.forevernow.me",
+    "region" : "ap-southeast-2"
+  },
+  "directory" : "site"
+}
