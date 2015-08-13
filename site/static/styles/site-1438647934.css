@@ -2137,7 +2137,7 @@ a:hover .shortlist-card__details {
 .psl-card {
   font-family: "brandon-grotesque", "helvetica", sans-serif;
   width: 20%;
-  min-height: 246px;
+  min-height: 280px;
 }
 .psl-card:hover .psl-card__placeholder {
   -webkit-box-shadow: 0 0 15px 0 rgba(254, 245, 103, 0.45);
